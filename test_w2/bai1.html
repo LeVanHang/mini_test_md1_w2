@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 1:
+    //Nhập số nguyên dương x bất kỳ. Viết chương trình tính giai thừa của x.
+
+    const number = parseInt(prompt('input'));
+    if(number<0){
+        alert('khong co pact')
+    }
+        let fact =1;
+        for (i = 1; i <= number; i++) {
+            fact *= i;
+        }
+    document.write('pactorial:'+ fact)
+
+
+</script>
+</body>
+</html>
